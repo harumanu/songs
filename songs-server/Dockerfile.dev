@@ -1,0 +1,13 @@
+FROM node:slim
+
+ENV NODE_ENV development
+
+WORKDIR /songs-server
+
+COPY . .
+
+RUN npm install
+
+CMD [ "node", "app.js" ]
+
+EXPOSE 5000
