@@ -1,7 +1,7 @@
 # Some notes:
 
 ## SSR
-I have opted out of server side rendering completely for this project. There was nothing in the test instructions mandating the use of SSR, and the feel of the project indicated more of an app approach to me so I’ve elected to set up a barebones REST api and a completely separate 
+I have opted out of server side rendering completely for this project. There was nothing in the test instructions mandating the use of SSR, and the feel of the project indicated more of an app approach to me so I’ve elected to set up a barebones REST api and a completely separate client
 
 ## Monorepo
 Setting this system up with separate separate repositories felt the most appropriate considering the split server/client architecture. The project was developed this way, what you see here is just the two repos mashed together inside a new monorepo to make it easier to evaluate the code.
