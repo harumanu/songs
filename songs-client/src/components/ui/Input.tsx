@@ -7,7 +7,7 @@ function Input({
   placeholder,
   required = false,
 }: {
-  register: UseFormRegister<FieldValues>;
+  register: Function,
   name: string;
   placeholder?: string;
   required: boolean;

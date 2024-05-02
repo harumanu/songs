@@ -45,7 +45,7 @@ function AddSong({
     defaultValues: initialFormState,
   });
 
-  const onSubmit: SubmitHandler<ISong> = (song) => {
+  const onSubmit: SubmitHandler<any> = (song) => {
     dispatch(isEditing ? requestEditSong(song) : requestAddSong(song));
   };
 

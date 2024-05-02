@@ -31,11 +31,11 @@ function SongList() {
     dispatch(requestFetchSongs());
   }, []);
 
-  const onDelete = (song: ISong) => {
+  const onDelete = (song: any) => {
     dispatch(requestRemoveSong(song));
   };
 
-  const onEdit = (song: ISong) => {
+  const onEdit = (song: any) => {
     setEditSong(song);
     openAddModal();
   };
